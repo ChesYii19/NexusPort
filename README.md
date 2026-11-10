@@ -23,7 +23,7 @@ npm run dev -- --host 0.0.0.0
 
 4. Abra a porta `5173` na aba **Ports** do Codespaces.
 
-Também funciona localmente com Node.js 20 ou superior usando os mesmos comandos.
+Também funciona localmente com Node.js 20 LTS ou superior usando os mesmos comandos.
 
 ## Build de produção
 
