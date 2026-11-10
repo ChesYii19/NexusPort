@@ -176,7 +176,7 @@ function App() {
         <div className="projects-grid">
           {visibleProjects.map((project, index) => {
             const Icon = project.icon
-            return <article className={\`project-card accent-\${project.accent}\`} key={project.name}>
+            return <article className={"project-card accent-" + project.accent} key={project.name}>
               <div className="project-top"><span className="project-icon"><Icon size={20} /></span><span className="project-status"><i />{project.status}</span></div>
               <span className="project-category">{project.category} / 0{index + 1}</span>
               <h3>{project.name}</h3><p>{project.description}</p>
