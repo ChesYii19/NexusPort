@@ -1,6 +1,14 @@
 # NEXUS // Portfólio de Tecnologia
 
-Portfólio pessoal desenvolvido com React + Vite. O projeto apresenta a trajetória em TI, competências em desenvolvimento e trabalhos selecionados para divulgação pública.
+Portfólio pessoal desenvolvido com React + Vite. O foco é apresentar trajetória, áreas de atuação e materiais demonstrativos genéricos para tecnologia.
+
+## Diretriz de apresentação
+
+O **CSTL Recovery** é mencionado exclusivamente como referência de experiência prática relacionada à recuperação e evolução de um portal institucional. Esta menção não reivindica autoria, titularidade ou propriedade sobre o portal, seu código, seus dados, sua identidade visual ou outros ativos.
+
+A seção de modelos demonstrativos apresenta ideias de materiais genéricos que serão criados independentemente, do zero. Não devem reproduzir código-fonte, telas, bases de dados, nomenclaturas, documentação ou arquitetura interna do CSTL Recovery. Antes de publicar qualquer material relacionado ao contexto, confirmar autorização e limites de divulgação com os responsáveis.
+
+Projetos pessoais e acadêmicos que não foram selecionados para divulgação não devem ser adicionados à vitrine.
 
 ## Stack
 
@@ -14,7 +22,7 @@ Portfólio pessoal desenvolvido com React + Vite. O projeto apresenta a trajetó
 
 1. Abra este repositório no GitHub.
 2. Clique em **Code → Codespaces → Create codespace on main**.
-3. No terminal do Codespace, instale as dependências e inicie o Vite:
+3. No terminal do Codespace:
 
 \`\`\`bash
 npm install
@@ -41,13 +49,6 @@ O deploy é automatizado por GitHub Actions em \`.github/workflows/deploy.yml\`.
 Na primeira publicação, confirme em **Settings → Pages** que a fonte está configurada como **GitHub Actions**. Depois, cada push na branch \`main\` executa a build e publica o site.
 
 Endereço esperado: <https://chesyii19.github.io/NexusPort/>
-
-## Conteúdo e manutenção
-
-- O projeto em destaque é **Protocol Nexus**, um jogo 2D desenvolvido com Unity e C#.
-- Inclua somente projetos e materiais autorizados para divulgação pública.
-- Revise descrições, capturas de tela, links e documentação antes de adicionar um novo projeto.
-- Evite publicar credenciais, tokens, dados pessoais ou arquivos \`.env\`.
 
 ## Estrutura
 
